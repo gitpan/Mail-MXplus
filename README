@@ -1,16 +1,10 @@
-Mail/MXplus version 0.01
+Mail/MXplus version 0.02
 ========================
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the
-README file from a module distribution so that people browsing the
-archive can use it get an idea of the modules uses. It is usually a
-good idea to provide version information here so that people can
-decide whether fixes for the module are worth downloading.
+Mail::MXplus - Perl extension for testing if a domain and IP pass the MX+ test
+The MX+ test passes if the MX of the domain matches the IP,
+or if the rDNS of the IP is a subdomain of the domain (or is the domain)
+See http://www.mxplus.org for a more detailed description of the MX+ tests
 
 INSTALLATION
 
